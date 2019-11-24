@@ -3,7 +3,6 @@ html{
 }
 body{
 	margin: 0px;
-	line-height: 0px;
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
 }
@@ -13,6 +12,7 @@ body{
 ul, li{
 	margin: 0;
 	padding: 0;
+	line-height: 0px;
 	list-style: none;
 }
 img{
@@ -120,12 +120,13 @@ img{
 }
 #menu{
 	background-color: #e5f9fc;
+	padding: 20px 0;
 }
 #menu .container {
 	/*border: 1px solid red;*/
 }
 #menu .container .search{
-	padding: 40px 0;
+	padding: 20px 0;
 }
 #menu .container .search div{
 	border: 1px solid lightgray;
@@ -200,6 +201,9 @@ img{
 	cursor: pointer;
 
 }
+#menu .container .menuList {
+	padding: 20px 0;
+}
 #menu .container .menuList .menuName{
 	width: calc(100% / 4 - 10px);
 	float: left;
@@ -212,6 +216,9 @@ img{
 }
 #menu .container .menuList .menuName:hover{
 	background-color: #aee3f9;
+}
+#menu .container .menuList .menuName h5 {
+	line-height: 0px;
 }
 #menu .container .menuList .menuName:hover h5{
 	color: #0d8dc4;
@@ -232,7 +239,6 @@ img{
 }
 #menu .container .menuList .menuName div i{
 	font-size: 30px;
-	/*margin: 9px;*/
 	text-align: center;
 	margin: 0px auto;
 	margin-top: 18%;
@@ -242,3 +248,115 @@ img{
 	padding: 5px;
 
 }
+
+#elanSection{
+	background-color: #F7F6F6;
+	
+}
+#elanSection .container{
+	background-color: white;
+	padding: 30px 0;
+}
+#elanSection .container h2{
+	font-size: 20px;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 5px 0px;
+	margin-left: 15px;
+}
+#elanSection .container .elan{
+	width: calc(100% / 4 - 16px);
+	margin: 7px;
+	float: left;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	text-decoration: none;
+	box-shadow: 0 0 3px lightgray;
+	overflow: hidden;
+}
+#elanSection .container .elan .image{
+	height: 180px;
+	position: relative;
+}
+#elanSection .container .elan .image img{
+	width: 100%;
+	height: 100%;
+}
+#elanSection .container .elan .image .price{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: #6bd5ea;
+	padding: 0 5px;
+	border-top-right-radius: 2px;
+}
+#elanSection .container .elan .image .price p{
+	padding:0;
+	font-size: 15px;
+	margin: 7px 0;
+	color: #444444;
+}
+#elanSection .container .elan .image .price p span{
+	font-size: 14px;
+}/*
+#elanSection .container .elan .text{
+	word-wrap: break-word;
+}*/
+#elanSection .container .elan .text{
+	padding: 5px;
+}
+#elanSection .container .elan .text h4{
+	display: block;
+	color: #444444;
+	height: 55px;
+	overflow: hidden;
+}
+#elanSection .container .elan .text span{
+	font-size: 13px;
+	color: #939393;
+
+}
+
+#footer{
+	background-color: #061127;
+}
+#footer .topFooter{
+	padding: 30px;
+	border-bottom: 1px solid #26395e;
+}
+#footer .topFooter .footerLeft{
+	float: left;
+	padding: 15px 0;
+}
+#footer .topFooter .footerRight{
+	float: right;
+}
+#footer .topFooter .footerLeft ul li{
+	float: left;
+}
+#footer .topFooter .footerLeft ul li a{
+	color: white;
+	text-decoration: none;
+	display: inline;
+	padding: 10px 15px;
+	border-radius: 3px;
+	transition: 0.3s;
+
+}
+#footer .topFooter .footerLeft ul li a:hover{
+	background-color: #2a4170;
+}
+#footer .topFooter .footerRight span{
+	color: #3b5589;
+}
+#footer .bottomFooter{
+	padding: 30px 0;
+}
+#footer .bottomFooter span{
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	color: #26395e;
+	padding: 5px 0;
+}
+
