@@ -249,7 +249,7 @@ ul, li{
 }
 
 #elanSection{
-	background-color: #F7F6F6;
+	/*background-color: #F7F6F6;*/
 	
 }
 #elanSection .container{
@@ -402,7 +402,7 @@ ul, li{
 }
 #product .productImage .container .imageRight div{
 	width: calc(100% / 3 - 10px);
-	height: 100px;
+	height: 110px;
 	overflow: hidden;
 	margin: 5px;
 	float: left;
@@ -410,7 +410,6 @@ ul, li{
 #product .productImage .container .imageRight div img{
 	width: 100%;
 	cursor: pointer;
-	padding: 15px 0;
 }
 
 #productDetail .productPrice{
@@ -440,6 +439,81 @@ ul, li{
 #productDetail .productPrice .container .productPriceRight{
 	width: calc(100% - 235px);
 	float: right;
-	line-height: 0px;
+	/*line-height: 0px;*/
 	margin-left: 15px;
+}
+#productDetail .container{
+	padding: 20px 0;
+}
+#productDetail .container .prodLeftSide{
+	 width: 220px;
+	 float: left;
+}
+#productDetail .container .userInfo{
+	width: 190px;
+	padding: 15px;
+	background-color: #F0F0F0;
+}
+#productDetail .container .userInfo .user .userPhone{
+	width: calc(100% * 2 / 3);
+	float: left;
+}
+#productDetail .container .userInfo .user .userPhone a{
+	text-decoration: none;
+	color: #444444;
+	display: inline-block;
+	padding: 5px 0;
+}
+#productDetail .container .userInfo .user .userPhone a:first-child{
+	font-weight: bold;
+}
+#productDetail .container .userInfo .user .userPhone a span{
+	padding: 5px 0;
+	display: block;
+	font-size: 11px;
+	width: 100%;
+}
+#productDetail .container .userInfo .user .userPhoneIcon{
+	width: calc(100% / 3);
+	float: right;
+	text-align: right;
+}
+#productDetail .container .userInfo .user .userPhoneIcon i{
+	color: #6bd5ea;
+	font-size: 40px;
+	
+}
+#productDetail .container .prodInfo{
+	width: 190px;
+	padding: 15px;
+}
+#productDetail .container .prodInfo p{
+	font-size: 12px;
+	color: #444444;
+	line-height: 8px;
+}
+#productDetail .container .prodInfo a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #444444;
+}
+#productDetail .container .prodInfo a i{
+	color: red;
+}
+#productDetail .container .prodRightSide{
+	 width: calc(100% - 250px);
+	 float: right;
+	 padding: 0 15px;
+}
+#productDetail .container .prodRightSide .city span{
+	font-size: 16px;
+	font-weight: bold;
+}
+#productDetail .container .prodRightSide .city span:nth-child(2){
+	color: #444444;
+}
+#productDetail .container .prodRightSide .city p{
+	line-height: 23px;
+	font-size: 17px;
+	color: #444444;
 }
