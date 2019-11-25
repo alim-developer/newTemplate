@@ -327,17 +327,21 @@ img{
 #footer .topFooter .footerLeft{
 	float: left;
 	padding: 15px 0;
+	width: calc(100% / 2);
 }
 #footer .topFooter .footerRight{
 	float: right;
+	text-align: right;
+	padding: 16px 0;
+	width: calc(100% / 2);
 }
 #footer .topFooter .footerLeft ul li{
 	float: left;
+	line-height: 20px;
 }
 #footer .topFooter .footerLeft ul li a{
 	color: white;
 	text-decoration: none;
-	display: inline;
 	padding: 10px 15px;
 	border-radius: 3px;
 	transition: 0.3s;
@@ -356,7 +360,7 @@ img{
 	font-size: 12px;
 	text-align: center;
 	display: block;
-	color: #26395e;
+	color: #3b5589;
 	padding: 5px 0;
 }
 
